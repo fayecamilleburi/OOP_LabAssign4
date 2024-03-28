@@ -1,5 +1,5 @@
 public class MaxAttemptsExceededException extends Exception {
-    public MaxAttemptsExceededException(String m) {
-        super(m);
+    public MaxAttemptsExceededException(String errorMessage) {
+        super(errorMessage);
     }
 }
